@@ -1,6 +1,13 @@
-
 * GLAD for chez-scheme binding
   This is a scheme library about GLAD.
 
 ** Usgae
+#+BEGIN_SRC scheme
+  (import (glad glad)
+          (glad gl))
+#+END_SRC
 
+** Tools
+#+BEGIN_SRC sh
+scripts/make-api.sh gl.ss
+#+END_SRC
