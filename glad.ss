@@ -29,6 +29,4 @@
   ;; GLAPI int gladLoadGLLoader(GLADloadproc);
   (define-foreign-function gladLoadGLLoader (uptr) int)
 
-  (define-gl-function 
-    unsigned-int
-  )
+)
